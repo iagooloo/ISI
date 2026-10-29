@@ -3,8 +3,8 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Fecha | [dd/mm/aaaa] |
-| Versión | [Versión de trabajo] |
+| Fecha | 29/10/2026 |
+| Versión | v1 |
 | Estado | Borrador |
 
 ## Fuentes comunes
@@ -15,7 +15,7 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como usuario registrado, quiero poder buscar recetas utilizando una palabra o frase, filtrando por ingredientes deseados o por ingredientes excluidos y por texto, para encontrar recetas que se adapten a mis necesidades.
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
@@ -27,28 +27,28 @@ Como [rol], quiero [capacidad amplia], para [beneficio].
 
 **Título:** [Capacidad]
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario registrado, quiero poder buscar recetas utilizando una palabra clave o frase, para obtener recetas concretas.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-085; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que estoy en la pantalla de búsqueda, cuando ingreso una palabra clave o frase y ejecuto la busqueda, entonces el sistema debe mostrar un listado de todas las recetas coincidentes.
+- **CA-02.** Dado que ingreso un termino de búsqueda, cuando la palabra clave o frase no coincida con ninguna receta registrada, entonces el sistema indicará que no hay resultados y mantendra los criterios de búsqueda.
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-02
 
 **Título:** [Capacidad]
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario registrado, quiero poder filtrar por ingredientes, para obtener recetas que contengan dichos elementos.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-86; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que estoy en la pantalla de búsqueda, cuando filtro seleccionando ingredientes, entonces el sistema muestra un listado de todas las recetas que incluyan esos ingredientes.
+- **CA-02.** Dado que ingreso los ingredientes que quiero filtrar, cuando no coincide esa combinación de ingredientes con ninguna receta validada, entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-03
